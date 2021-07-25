@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.jss.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>SIGN-UP FORM</h1>
+                    <input type="text" name="name" id="name" placeholder="NAME"><br>
+                    <input type="e mail" name="email" id="email" placeholder="EMAIL"><br/>
+                    <input type="text" name="about" id="about" placeholder="About You"><br/>
+                    <input type="text" name="address" id="address" placeholder="ADDRESS"><br/>
+                    <input type="tel" name="phone no" id="phoneno" placeholder="PHONE NO"><br/>
+                    <input type="text" name="clg" id="clg" placeholder="College"><br/>
+                    <button onclick="results()" id="submit">SUBMIT</button> 
+                </div>
+                <div class="offset-md-2"></div>
+                <div class="col-md-5" id="profilecard">
+                    <h1 class="profile">PROFILE CARD</h1>
+        Name :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span id="dname"></span><br/>
+        Email :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span id="demail"></span><br/>
+        About :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span id="dabout"></span><br/>
+        Address :&nbsp; &nbsp; &nbsp;<span id="daddress"></span><br/>
+        Phone No. :&nbsp; &nbsp;<span id="dphone"></span><br/> 
+        College :&nbsp; &nbsp; &nbsp; &nbsp;<span id="dcollege"></span><br/>
+              </div>
+            </div>
+        </div>
